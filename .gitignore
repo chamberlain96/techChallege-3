@@ -1,0 +1,20 @@
+# Downloaded manifests / temp files
+iam-policy.json
+cwagentconfig.json
+eksctl.zip
+eksctl/
+
+# Kubeconfig — never commit credentials/cluster access
+kubeconfig
+.kube/
+
+# Helm
+*.tgz
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+
+# Local env files
+.env
